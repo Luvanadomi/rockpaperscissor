@@ -1,0 +1,49 @@
+#dashboard{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 1px solid rgb(128, 197, 218); 
+    padding: 100px;
+    background-color: rgb(205, 225, 231);
+    text-align: center;
+}
+#player,#playerScoreDisplay{
+    color: blue;
+}
+#computer,#computerScoreDisplay{
+    color: red;
+}
+.choice{
+    padding:5px;
+    color:white;
+    background-color:rgb(47, 133, 161);
+    border-color: rgb(166, 214, 230);
+    box-shadow: rgb(47, 133, 161);
+    margin:10px;
+    border-radius:50%;
+     
+}
+.choice img{
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    height:30px;
+    width:30px;
+}
+.choice:hover{
+    background-color: lightblue;
+    border-color: rgb(166, 214, 230); 
+    color:rgb(47, 133, 161);
+    transition: ease-out 0.5;
+}
+#playerScore, #computerScore{
+    font-size: 2.5rem;
+}
+#resultDisplay{
+    font-size: 5rem;
+    margin: 30px 0;
+}
+.score{
+    font-size: 2rem;
+}
+.scoreDisplay{
+    
+}
